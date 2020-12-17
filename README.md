@@ -1,6 +1,6 @@
 # Lazy load Syncfusion Blazor assemblies in Blazor WebAssembly application
 
-* Syncfusion Blazor components can support Blazor's [lazy load assemblies](https://docs.microsoft.com/en-us/aspnet/core/blazor/webassembly-lazy-load-assemblies?view=aspnetcore-5.0) from Volume 4, 2020 (v18.4.0.30) release.
+* Syncfusion Blazor components can support Blazor's [lazy load assemblies](https://docs.microsoft.com/en-us/aspnet/core/blazor/webassembly-lazy-load-assemblies?view=aspnetcore-5.0) from Essential Studio Volume 4, 2020 (v18.4.0.30) release.
 
 ## Prerequisites
 
