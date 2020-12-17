@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="5.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="5.0.1" PrivateAssets="all" />
+    <PackageReference Include="Syncfusion.Blazor.Buttons" Version="18.4.0.30" />
+    <PackageReference Include="Syncfusion.Blazor.Calendars" Version="18.4.0.30" />
+    <PackageReference Include="Syncfusion.Blazor.DropDowns" Version="18.4.0.30" />
+    <PackageReference Include="Syncfusion.Blazor.Grid" Version="18.4.0.30" />
+    <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <BlazorWebAssemblyLazyLoad Include="Syncfusion.Blazor.Buttons.dll" />
+    <BlazorWebAssemblyLazyLoad Include="Syncfusion.Blazor.Calendars.dll" />
+    <BlazorWebAssemblyLazyLoad Include="Syncfusion.Blazor.Inputs.dll" />
+    <BlazorWebAssemblyLazyLoad Include="Syncfusion.Blazor.Lists.dll" />
+    <BlazorWebAssemblyLazyLoad Include="Syncfusion.Blazor.DropDowns.dll" />
+    <BlazorWebAssemblyLazyLoad Include="Syncfusion.Blazor.Data.dll" />
+    <BlazorWebAssemblyLazyLoad Include="Syncfusion.Blazor.Spinner.dll" />
+    <BlazorWebAssemblyLazyLoad Include="Syncfusion.Blazor.Grids.dll" />
+    <BlazorWebAssemblyLazyLoad Include="Syncfusion.Blazor.Popups.dll" />
+    <BlazorWebAssemblyLazyLoad Include="Syncfusion.Blazor.SplitButtons.dll" />
+    <BlazorWebAssemblyLazyLoad Include="Syncfusion.Blazor.Navigations.dll" />
+    <BlazorWebAssemblyLazyLoad Include="Syncfusion.ExcelExport.Net.dll" />
+    <BlazorWebAssemblyLazyLoad Include="Syncfusion.PdfExport.Net.dll" />
+  </ItemGroup>
+
+</Project>
