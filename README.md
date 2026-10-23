@@ -6,15 +6,17 @@ This repository explains about how to use lazy load syncfusion assemblies in Bla
 
 ## Prerequisites
 
-* Visual Studio 2022
+* .NET 10 SDK
+* Visual Studio 2022 or Visual Studio Code
 
 ## How to run the project
 
 * Checkout this project to a location in your disk.
-* Open the solution file using the Visual Studio 2022.
+* Open the solution file using the Visual Studio 2022 or open the folder in Visual Studio Code.
 * Restore the NuGet packages by rebuilding the solution.
 * Run the project.
 
 ## See also
 
 * [Syncfusion NuGet Packages](https://blazor.syncfusion.com/documentation/nuget-packages/)
+* [Getting Started with Syncfusion Blazor DataGrid](https://help.syncfusion.com/grid-sdk/blazor/data-grid/getting-started?tabcontent=visual-studio-code)
